@@ -1,9 +1,26 @@
-def main():
-    print("hello world")
+#main is defined with no arguments 
+#def name_of_function();
+#indent for code that belongs to function
 
+def main():
+    class_size= 7
+    print("hello class of " + str(class_size)+ "!")
+    #single apostrophes
+    print('hello world')
+    #triple quotes 
+    print("""hello world""")
+
+    #printing with fStrings
+    print(f"hello class of {class_size}!")
+    #use brackets when working with fStrings
+    _name=nina
+    _rent=8000
+    print(f"Hello my name is {name} and I pay {rent/30} in rent per day")
 
 if __name__ == "__main__":
     main()
+        
+    
         #NOTES
   
     #Java int x=5; Phython x=5
