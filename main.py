@@ -13,9 +13,9 @@ def main():
     #printing with fStrings
     print(f"hello class of {class_size}!")
     #use brackets when working with fStrings
-    _name=nina
+    _name="nina"
     _rent=8000
-    print(f"Hello my name is {name} and I pay {rent/30} in rent per day")
+    print(f"Hello my name is {_name} and I pay {_rent/30} in rent per day")
 
 if __name__ == "__main__":
     main()
@@ -40,4 +40,23 @@ if __name__ == "__main__":
      #x=75 float(75)
      #print("your grade us:")
         #print(int(grade))
+    def main():
+        number = "5.0" 
+        print(type(int(float(number))))
+        print(type(number))
+        print(f"Our output is{number}")
+        name_of_function()
 
+    def name_of_function():
+        #sample function to show structure 
+        print("good example!")
+
+    def function_with_args(name):
+        print(f"Hello, thank you for your focus {name}")
+
+    def main():
+        name = "kyanni" 
+        other_name="KG"
+        function_with_args(name)
+        function_with_args(other_name)
+    
