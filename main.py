@@ -45,6 +45,7 @@ def name_of_function():
     print("good example!")
 
 
+
 def function_with_args(name):
     print(f"Hello, thank you for your focus {name}")
 
@@ -62,6 +63,18 @@ def put_under_one(y, x=1):
 def put_under_one_alt(x): 
      return f"1/{x}"
 
+def demo(name, age):
+   print(name, age) 
+
+def show_employee(En, salary):
+     print("name=", En, " salary=", salary)
+
+def employee(Jessica,salary1):
+    print("name2=", Jessica, " salary=", salary1)
+
+     
+     
+     
 
 
 def main():
@@ -82,6 +95,19 @@ def main():
 
         print(make_a_fraction(15,4))
         make_a_fraction(15,4)
+
+        #print (make_a_fraction(15,4))
+        print(make_a_fraction(15))
+        demo("Kelly", 25)
+
+        show_employee("Ben", 12000)
+        show_employee("jessica", 9000)
+
+     
+
+
+
+
 
 if __name__ == "__main__":
      main()
