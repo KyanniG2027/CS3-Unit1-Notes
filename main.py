@@ -76,35 +76,62 @@ def employee(Jessica,salary1):
      
      
 
-
-def main():
-        name = "kyanni" 
-        other_name="KG"
-        function_with_args(name)
-        function_with_args(other_name)
+#Lists - a data collection option that is ORDERED and MUTABLE 
+    #WE declaren list using []
+def main(): 
         
-        number = "5.0" 
-        print(type(int(float(number))))
-        print(type(number))
-        print(f"Our output is{number}")
-        name_of_function()
+        
+        
+    name = "kyanni" 
+    other_name="KG"
+    function_with_args(name)
+    function_with_args(other_name)
+    
+    number = "5.0" 
+    print(type(int(float(number))))
+    print(type(number))
+    print(f"Our output is{number}")
+    name_of_function()
 
-        #We can store return output into variables for later
-        my_greeting = greeting("Ms.Dinko")
-        print(my_greeting)
+    #We can store return output into variables for later
+    my_greeting = greeting("Ms.Dinko")
+    print(my_greeting)
 
-        print(make_a_fraction(15,4))
-        make_a_fraction(15,4)
+    print(make_a_fraction(15,4))
+    make_a_fraction(15,4)
 
-        #print (make_a_fraction(15,4))
-        print(make_a_fraction(15))
-        demo("Kelly", 25)
+    #print (make_a_fraction(15,4))
+    print(make_a_fraction(15))
+    demo("Kelly", 25)
 
-        show_employee("Ben", 12000)
-        show_employee("jessica", 9000)
+    show_employee("Ben", 12000)
+    show_employee("jessica", 9000)
+  #declaring an empty list that we can add later 
+    my_list = []
+    my_other_list = list()
 
-     
+    #declaring list with items already in it 
+    my_classes = ["Math","Post-AP", "English"]
 
+    print(len(my_classes))
+    #we can index using the name of the list followed by [x]
+    #our last element in our list is always len(list) -1   
+    print(my_classes[2])
+    print(my_classes[len(my_classes)-1])
+    print(my_classes[-1])
+
+    print(my_classes[-2])
+    #using a 0 index always gives us our first element
+  
+
+    # we can update and replace an items of our list with indeces 
+    my_classes[1] = "AP Comp Sci"
+    print(my_classes)
+
+    my_classes[1] +=" A" 
+    print(my_classes)
+
+    print(len(my_classes) >=4 )
 
 
 
