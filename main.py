@@ -133,6 +133,57 @@ def main():
 
     print(len(my_classes) >=4 )
 
+    my_list = []
+    my_other_list = list()
+    my_classes = ["math", "computer science", "english"]
+    print (len(my_classes))
+    print(my_classes[2])
+    print(my_classes[len(my_classes)-1])
+    print(my_classes[-1])
+    my_classes[1] = "ap"
+    print(my_classes)
+    my_classes[1] += " comp sci"
+    print(my_classes)
+    print(my_classes.index("math"))
+    print("math" in my_classes)
+    my_classes.append("journalism")
+    my_classes.insert(2, "biology")
+    print(my_classes.pop())
+    print(my_classes.sort())
+    print(my_classes)
+
+    #reverse the list in place ysung .reverse()
+    my_classes.reverse()
+    print(my_classes)
+
+    print(len(my_classes))
+
+    colors_a =["blue", "turquoise", "baby blue", "red"]
+    colors_b =["burgunday", "orange", "blue", "brown"]
+
+   #colors_a = colors_a + colors_b
+    colors_a.extend(colors_b)
+    print(colors_a)
+
+    print("orange" in colors_a)
+    print("pink" in colors_a)
+
+    print(colors_a.index("orange"))
+    #print(colors_a.index("pink"))
+
+    #get the frequency or count of an item in a listName.count(item)
+
+    count=colors_a.count("blue")
+    print(f"There are {count} blues!")
+
+    #task is updating a list item from turquois to green
+    colors_a[colors_a.index("turquoise")]="green"
+    print(colors_a)
+
+    
+    #.sorted() edits current list 
+    #sorted(list)makes a new copy
+
 
 
 
